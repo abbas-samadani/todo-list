@@ -1,8 +1,7 @@
 import React from 'react';
-import Info from './Components/Info'
+import TodoList from './Components/TodoList'
 export default function App() {
-    const num = [1,2,3,4]
     return (
-        <Info num={num}/>
+        <TodoList />
     )
 }

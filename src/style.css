@@ -1,20 +1,77 @@
-body {
-    padding: 15px;
-    background-color: #007bec;
+.heading{
+	width: 50%;
+	margin: 30px auto;
+	text-align: center;
+	color: 	#6B8E23;
+	background: #FFF8DC;
+	border: 2px solid #6B8E23;
+	border-radius: 20px;
+}
+form {
+	width: 50%; 
+	margin: 30px auto; 
+	border-radius: 5px; 
+	padding: 10px;
+	background: #FFF8DC;
+	border: 1px solid #6B8E23;
+}
+form p {
+	color: red;
+	margin: 0px;
+}
+.task_input {
+	width: 75%;
+	height: 15px; 
+	padding: 10px;
+	border: 2px solid #6B8E23;
+}
+.add_btn {
+	height: 39px;
+	background: #FFF8DC;
+	color: 	#6B8E23;
+	border: 2px solid #6B8E23;
+	border-radius: 5px; 
+	padding: 5px 20px;
+	cursor: pointer;
 }
 
-input {
-    margin-left: 25px;
+table {
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
 }
 
-div {
-    margin-top: 20px;
+tr {
+	border-bottom: 1px solid #cbcbcb;
 }
 
-.section {
-    padding: 10px;
-    background-color: #dadada;
-    border-radius: 10px;
+th {
+	font-size: 19px;
+	color: #6B8E23;
+}
 
-    max-width: 300px;
+th, td{
+	border: none;
+    height: 30px;
+    padding: 2px;
+}
+
+tr:hover {
+	background: #E9E9E9;
+}
+
+.task {
+	text-align: left;
+}
+
+.delete{
+	text-align: center;
+}
+.delete a{
+	color: white;
+	background: #a52a2a;
+	padding: 1px 6px;
+	border-radius: 3px;
+	text-decoration: none;
+	cursor: pointer;
 }
